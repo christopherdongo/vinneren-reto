@@ -14,6 +14,7 @@ function App() {
   useEffect(() => {
        getProducts()
        getProductsStorage()
+        // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
 
